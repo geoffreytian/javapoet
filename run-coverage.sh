@@ -1,7 +1,7 @@
 
 cd AmanGeofTemporaryFolder/javapoet
 mvn test
-cd /target/site/jacoco
+cd target/site/jacoco
 cp index.html test-coverage.html
 mv test-coverage.html ../../..
 mv jacoco.xml ../../..
